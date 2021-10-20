@@ -1,0 +1,27 @@
+.navbar {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.search_container {
+  position: absolute;
+  right: 0;
+  display: flex;
+  justify-content: end;
+}
+.line {
+  border-bottom: 1px solid black;
+  border-bottom-color: white;
+  transition: all 0.5s;
+}
+
+.search_image {
+  position: absolute;
+  height: 30px;
+  top: 5px;
+  right: 13px;
+}
+
+.z_index {
+  z-index: 1;
+}
+

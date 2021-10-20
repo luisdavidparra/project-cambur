@@ -1,0 +1,2384 @@
+{
+  "user": [
+    {
+      "name": "Luis David",
+      "zone": "BO",
+      "date_register": "2021-07-10",
+      "movies": {
+        "watch_list": [
+          {
+            "adult": false,
+            "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+            "belongs_to_collection": {
+              "id": 558216,
+              "name": "Venom Collection",
+              "poster_path": "/670x9sf0Ru8y6ezBggmYudx61yB.jpg",
+              "backdrop_path": "/rhLspFB1B8ZCkWEHFYmc3NKagzq.jpg"
+            },
+            "budget": 110000000,
+            "genres": [
+              {
+                "id": 878,
+                "name": "Science Fiction"
+              },
+              {
+                "id": 28,
+                "name": "Action"
+              }
+            ],
+            "homepage": "https://www.venom.movie",
+            "id": 580489,
+            "imdb_id": "tt7097896",
+            "original_language": "en",
+            "original_title": "Venom: Let There Be Carnage",
+            "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+            "popularity": 9595.454,
+            "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+            "production_companies": [
+              {
+                "id": 7505,
+                "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+                "name": "Marvel Entertainment",
+                "origin_country": "US"
+              },
+              {
+                "id": 84041,
+                "logo_path": "/XmHMPGzdI5c4WGX1YlxU4s2v7T.png",
+                "name": "Pascal Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 5,
+                "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+                "name": "Columbia Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 34,
+                "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
+                "name": "Sony Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 81620,
+                "logo_path": "/gNp4dfuBOXmVWdGKb63NfbFNbFi.png",
+                "name": "Tencent Pictures",
+                "origin_country": "CN"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "CN",
+                "name": "China"
+              },
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2021-09-30",
+            "revenue": 191000000,
+            "runtime": 97,
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "Venom: Let There Be Carnage",
+            "video": false,
+            "vote_average": 7.2,
+            "vote_count": 593
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/7jjwdoIVPJp7gcDo9uE1sVZi2Rs.jpg",
+            "belongs_to_collection": null,
+            "budget": 20000000,
+            "genres": [
+              {
+                "id": 18,
+                "name": "Drama"
+              },
+              {
+                "id": 10749,
+                "name": "Romance"
+              }
+            ],
+            "homepage": "http://www.mebeforeyoumovie.net",
+            "id": 296096,
+            "imdb_id": "tt2674426",
+            "original_language": "en",
+            "original_title": "Me Before You",
+            "overview": "A small town girl is caught between dead-end jobs. A high-profile, successful man becomes wheelchair bound following an accident. The man decides his life is not worth living until the girl is hired for six months to be his new caretaker. Worlds apart and trapped together by circumstance, the two get off to a rocky start. But the girl becomes determined to prove to the man that life is worth living and as they embark on a series of adventures together, each finds their world changing in ways neither of them could begin to imagine.",
+            "popularity": 85.639,
+            "poster_path": "/oo2Q3T8juOYFh2G1YJ3oSMAfUyq.jpg",
+            "production_companies": [
+              {
+                "id": 12,
+                "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
+                "name": "New Line Cinema",
+                "origin_country": "US"
+              },
+              {
+                "id": 5219,
+                "logo_path": null,
+                "name": "Sunswept Entertainment",
+                "origin_country": ""
+              },
+              {
+                "id": 21,
+                "logo_path": "/aOWKh4gkNrfFZ3Ep7n0ckPhoGb5.png",
+                "name": "Metro-Goldwyn-Mayer",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2016-06-01",
+            "revenue": 207945075,
+            "runtime": 110,
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Released",
+            "tagline": "Live boldly.",
+            "title": "Me Before You",
+            "video": false,
+            "vote_average": 7.9,
+            "vote_count": 9415
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/mDTrJbn2YEzYrBsdu7ITKh3ef69.jpg",
+            "belongs_to_collection": null,
+            "budget": 0,
+            "genres": [
+              {
+                "id": 28,
+                "name": "Action"
+              },
+              {
+                "id": 35,
+                "name": "Comedy"
+              },
+              {
+                "id": 12,
+                "name": "Adventure"
+              }
+            ],
+            "homepage": "https://www.matandocabos2.com",
+            "id": 772436,
+            "imdb_id": "tt9595360",
+            "original_language": "es",
+            "original_title": "Matando Cabos 2, La Máscara del Máscara",
+            "overview": "Faced with the unexpected death of his estranged father -El Máscara- and the subsequent theft of his precious mask, Rubén -Mascarita- will find himself confronted with his past. Alongside his invincible bodyguard Tony \"The Cannibal\" and, an unexpected ally, he will have only one day to recover it and make amends with the memory of his father.",
+            "popularity": 2795.85,
+            "poster_path": "/ycKNJTFOLN5qRtA7uI2yk2cE3eU.jpg",
+            "production_companies": [
+              {
+                "id": 3696,
+                "logo_path": null,
+                "name": "Lemon Films",
+                "origin_country": "MX"
+              },
+              {
+                "id": 7570,
+                "logo_path": null,
+                "name": "Videocine",
+                "origin_country": ""
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "MX",
+                "name": "Mexico"
+              }
+            ],
+            "release_date": "2021-10-01",
+            "revenue": 0,
+            "runtime": 0,
+            "spoken_languages": [
+              {
+                "english_name": "Spanish",
+                "iso_639_1": "es",
+                "name": "Español"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "Matando Cabos 2, La Máscara del Máscara",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 34
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/dIibeeq4QMay5bTJ2vjr72IFFRo.jpg",
+            "belongs_to_collection": {
+              "id": 589755,
+              "name": "Последний богатырь (Коллекция)",
+              "poster_path": "/yNVVMghDoxsdJBGPDqdfOCA7WZF.jpg",
+              "backdrop_path": null
+            },
+            "budget": 8400000,
+            "genres": [
+              {
+                "id": 14,
+                "name": "Fantasy"
+              },
+              {
+                "id": 12,
+                "name": "Adventure"
+              },
+              {
+                "id": 35,
+                "name": "Comedy"
+              }
+            ],
+            "homepage": "",
+            "id": 589754,
+            "imdb_id": "tt13606158",
+            "original_language": "ru",
+            "original_title": "Последний богатырь: Корень зла",
+            "overview": "Peace and tranquility have set in Belogorie. The evil was defeated and Ivan is now enjoying his well-deserved fame. He is surrounded by his family, friends and small wonders from the modern world that help him lead a comfortable life. Luckily, he has his Magic Sword to cut a gap between the worlds to get some supplies quite regularly. But when an ancient evil rises and the existence of the magic world is put to danger, Ivan has to team up with his old friends and his new rivals. They will set out on a long journey beyond the known world to find a way to defeat the enemies and to return peace to Belogorie.",
+            "popularity": 1625.443,
+            "poster_path": "/5VJSIAhSn4qUsg5nOj4MhQhF5wQ.jpg",
+            "production_companies": [
+              {
+                "id": 42877,
+                "logo_path": "/15THT1W3NROsbDXPbrcmWFVkrSv.png",
+                "name": "Yellow, Black & White",
+                "origin_country": "RU"
+              },
+              {
+                "id": 101999,
+                "logo_path": null,
+                "name": "The Walt Disney Company CIS",
+                "origin_country": "RU"
+              },
+              {
+                "id": 76049,
+                "logo_path": "/tam9pIV4QK1ZPwdxBgtVkK1WTYC.png",
+                "name": "Cinema Fund",
+                "origin_country": "RU"
+              },
+              {
+                "id": 69587,
+                "logo_path": "/u0Jy8wJ05m3MZCNiba1EXgf0zoK.png",
+                "name": "Russia-1",
+                "origin_country": "RU"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "RU",
+                "name": "Russia"
+              }
+            ],
+            "release_date": "2021-01-01",
+            "revenue": 27658331,
+            "runtime": 120,
+            "spoken_languages": [
+              {
+                "english_name": "Russian",
+                "iso_639_1": "ru",
+                "name": "Pусский"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "The Last Warrior: Root of Evil",
+            "video": false,
+            "vote_average": 7.3,
+            "vote_count": 57
+          }
+        ],
+        "watched": [
+          {
+            "adult": false,
+            "backdrop_path": "/uI9YwSYfO6CuXJCdYfUW0CPI7TU.jpg",
+            "belongs_to_collection": {
+              "id": 1575,
+              "name": "Rocky Collection",
+              "poster_path": "/O66XFv0mU6JKfmrgkoTQLwbFDG.jpg",
+              "backdrop_path": "/JhGydj4q5y8MoWZFyj15yKNrzC.jpg"
+            },
+            "budget": 31000000,
+            "genres": [
+              {
+                "id": 18,
+                "name": "Drama"
+              }
+            ],
+            "homepage": "https://www.mgm.com/movies/rocky-iv",
+            "id": 1374,
+            "imdb_id": "tt0089927",
+            "original_language": "en",
+            "original_title": "Rocky IV",
+            "overview": "After iron man Drago, a highly intimidating 6-foot-5, 261-pound Soviet athlete, kills Apollo Creed in an exhibition match, Rocky comes to the heart of Russia for 15 pile-driving boxing rounds of revenge.",
+            "popularity": 37.261,
+            "poster_path": "/jmvpwgW5M2kduR9zB0q8qGFC4zM.jpg",
+            "production_companies": [
+              {
+                "id": 8880,
+                "logo_path": "/fE7LBw7Jz8R29EABFGCvWNriZxN.png",
+                "name": "Winkler Films",
+                "origin_country": "US"
+              },
+              {
+                "id": 60,
+                "logo_path": "/oJXpAs4I3W46e4dkaOEzCa4yBko.png",
+                "name": "United Artists",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "1985-11-21",
+            "revenue": 300473716,
+            "runtime": 91,
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              },
+              {
+                "english_name": "Russian",
+                "iso_639_1": "ru",
+                "name": "Pусский"
+              }
+            ],
+            "status": "Released",
+            "tagline": "He's facing the ultimate challenge. And fighting for his life.",
+            "title": "Rocky IV",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 3169
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/vkIJ2QgcKMJRvi6pBW4Tr2kgLdy.jpg",
+            "belongs_to_collection": null,
+            "budget": 14479740,
+            "genres": [
+              {
+                "id": 80,
+                "name": "Crime"
+              },
+              {
+                "id": 53,
+                "name": "Thriller"
+              }
+            ],
+            "homepage": "",
+            "id": 637534,
+            "imdb_id": "tt10404944",
+            "original_language": "fr",
+            "original_title": "BAC Nord",
+            "overview": "A police brigade working in the dangerous northern neighborhoods of Marseille, where the level of crime is higher than anywhere else in France.",
+            "popularity": 1900.756,
+            "poster_path": "/nLanxl7Xhfbd5s8FxPy8jWZw4rv.jpg",
+            "production_companies": [
+              {
+                "id": 694,
+                "logo_path": "/5LEHONGkZBIoWvp1ygHOF8iyi1M.png",
+                "name": "StudioCanal",
+                "origin_country": "FR"
+              },
+              {
+                "id": 83,
+                "logo_path": "/9OQ0rm55xtlgX7KcAKMUePJSrQc.png",
+                "name": "France 2 Cinéma",
+                "origin_country": "FR"
+              },
+              {
+                "id": 34780,
+                "logo_path": null,
+                "name": "Chi-Fou-Mi Productions",
+                "origin_country": "FR"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "FR",
+                "name": "France"
+              }
+            ],
+            "release_date": "2021-08-18",
+            "revenue": 0,
+            "runtime": 105,
+            "spoken_languages": [
+              {
+                "english_name": "French",
+                "iso_639_1": "fr",
+                "name": "Français"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "The Stronghold",
+            "video": false,
+            "vote_average": 7.7,
+            "vote_count": 411
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/aO9Nnv9GdwiPdkNO79TISlQ5bbG.jpg",
+            "belongs_to_collection": {
+              "id": 135468,
+              "name": "G.I. Joe (Live-Action) Collection",
+              "poster_path": "/8ykKDU3FisEFtCpPZloB1jqcAIn.jpg",
+              "backdrop_path": "/m3ip0ci0TnX0ATUxpweqElYCeq4.jpg"
+            },
+            "budget": 88000000,
+            "genres": [
+              {
+                "id": 28,
+                "name": "Action"
+              },
+              {
+                "id": 12,
+                "name": "Adventure"
+              }
+            ],
+            "homepage": "https://www.snakeeyesmovie.com",
+            "id": 568620,
+            "imdb_id": "tt8404256",
+            "original_language": "en",
+            "original_title": "Snake Eyes: G.I. Joe Origins",
+            "overview": "After saving the life of their heir apparent, tenacious loner Snake Eyes is welcomed into an ancient Japanese clan called the Arashikage where he is taught the ways of the ninja warrior. But, when secrets from his past are revealed, Snake Eyes' honor and allegiance will be tested – even if that means losing the trust of those closest to him.",
+            "popularity": 2524.697,
+            "poster_path": "/uIXF0sQGXOxQhbaEaKOi2VYlIL0.jpg",
+            "production_companies": [
+              {
+                "id": 4,
+                "logo_path": "/fycMZt242LVjagMByZOLUGbCvv3.png",
+                "name": "Paramount",
+                "origin_country": "US"
+              },
+              {
+                "id": 21,
+                "logo_path": "/aOWKh4gkNrfFZ3Ep7n0ckPhoGb5.png",
+                "name": "Metro-Goldwyn-Mayer",
+                "origin_country": "US"
+              },
+              {
+                "id": 435,
+                "logo_path": "/AjzK0s2w1GtLfR4hqCjVSYi0Sr8.png",
+                "name": "Di Bonaventura Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 8147,
+                "logo_path": "/q6HOAdSNgCbeOqwoMVRc6REgbXF.png",
+                "name": "Entertainment One",
+                "origin_country": "CA"
+              },
+              {
+                "id": 82819,
+                "logo_path": "/5Z8WWr0Lf1tInVWwJsxPP0uMz9a.png",
+                "name": "Skydance Media",
+                "origin_country": "US"
+              },
+              {
+                "id": 2598,
+                "logo_path": "/i42C5gRq7XqlG4S9vkchuJZfrBn.png",
+                "name": "Hasbro",
+                "origin_country": ""
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "CA",
+                "name": "Canada"
+              },
+              {
+                "iso_3166_1": "JP",
+                "name": "Japan"
+              },
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2021-07-22",
+            "revenue": 36964325,
+            "runtime": 121,
+            "spoken_languages": [
+              {
+                "english_name": "Arabic",
+                "iso_639_1": "ar",
+                "name": "العربية"
+              },
+              {
+                "english_name": "Japanese",
+                "iso_639_1": "ja",
+                "name": "日本語"
+              },
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              },
+              {
+                "english_name": "Italian",
+                "iso_639_1": "it",
+                "name": "Italiano"
+              }
+            ],
+            "status": "Released",
+            "tagline": "Every warrior has a beginning.",
+            "title": "Snake Eyes: G.I. Joe Origins",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 647
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/hrzoy8vvUrxQixOM11pwW9AX7Bu.jpg",
+            "belongs_to_collection": null,
+            "budget": 0,
+            "genres": [
+              {
+                "id": 80,
+                "name": "Crime"
+              },
+              {
+                "id": 18,
+                "name": "Drama"
+              }
+            ],
+            "homepage": "https://www.themanysaintsofnewarkmovie.com",
+            "id": 524369,
+            "imdb_id": "tt8110232",
+            "original_language": "en",
+            "original_title": "The Many Saints of Newark",
+            "overview": "Young Anthony Soprano is growing up in one of the most tumultuous eras in Newark, N.J., history, becoming a man just as rival gangsters start to rise up and challenge the all-powerful DiMeo crime family. Caught up in the changing times is the uncle he idolizes, Dickie Moltisanti, whose influence over his nephew will help shape the impressionable teenager into the all-powerful mob boss, Tony Soprano.",
+            "popularity": 1741.857,
+            "poster_path": "/1UkbPQspPbq1FPbFP4VV1ELCfSN.jpg",
+            "production_companies": [
+              {
+                "id": 174,
+                "logo_path": "/IuAlhI9eVC9Z8UQWOIDdWRKSEJ.png",
+                "name": "Warner Bros. Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 7429,
+                "logo_path": "/6in9uMqxXEHx5XgYgkeRBpZ4rPw.png",
+                "name": "HBO Films",
+                "origin_country": "US"
+              },
+              {
+                "id": 12,
+                "logo_path": "/iaYpEp3LQmb8AfAtmTvpqd4149c.png",
+                "name": "New Line Cinema",
+                "origin_country": "US"
+              },
+              {
+                "id": 129036,
+                "logo_path": null,
+                "name": "Chase Films",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2021-09-22",
+            "revenue": 7300000,
+            "runtime": 120,
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Released",
+            "tagline": "Who made Tony Soprano?",
+            "title": "The Many Saints of Newark",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 113
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/njc7XtQRWGlq5zXp3ok3wZMHunm.jpg",
+            "belongs_to_collection": null,
+            "budget": 0,
+            "genres": [
+              {
+                "id": 16,
+                "name": "Animation"
+              },
+              {
+                "id": 18,
+                "name": "Drama"
+              },
+              {
+                "id": 36,
+                "name": "History"
+              }
+            ],
+            "homepage": "",
+            "id": 698934,
+            "imdb_id": "tt12223340",
+            "original_language": "es",
+            "original_title": "Buñuel en el laberinto de las tortugas",
+            "overview": "Spain, 1932. Spanish filmmaker Luis Buñuel travels to the region of Las Hurdes, in Extremadura, where he shoots his third film, a very critical and later controversial documentary about the living conditions of the poor peasants, abandoned and forgotten by the national authorities.",
+            "popularity": 1.243,
+            "poster_path": "/d1U67kzYFd4NiZ9E0oiTbEQTrph.jpg",
+            "production_companies": [
+              {
+                "id": 80408,
+                "logo_path": null,
+                "name": "The Glow",
+                "origin_country": "ES"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "ES",
+                "name": "Spain"
+              }
+            ],
+            "release_date": "2015-01-01",
+            "revenue": 0,
+            "runtime": 19,
+            "spoken_languages": [
+              {
+                "english_name": "Spanish",
+                "iso_639_1": "es",
+                "name": "Español"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "Buñuel en el laberinto de las tortugas",
+            "video": false,
+            "vote_average": 6,
+            "vote_count": 1
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/7gmhUyLDagzOtbJizNFebHQSoQT.jpg",
+            "belongs_to_collection": null,
+            "budget": 0,
+            "genres": [
+              {
+                "id": 16,
+                "name": "Animation"
+              },
+              {
+                "id": 18,
+                "name": "Drama"
+              },
+              {
+                "id": 36,
+                "name": "History"
+              }
+            ],
+            "homepage": "https://www.latidofilms.com/film/bunuel-in-the-labyrinth-of-the-turtles",
+            "id": 510318,
+            "imdb_id": "tt7336470",
+            "original_language": "es",
+            "original_title": "Buñuel en el laberinto de las tortugas",
+            "overview": "Paris, 1930. Luis Buñuel is penniless after the scandal surrounding the release of his last movie. Sculptor Ramón Acín, a good friend, buys a lottery ticket and promises Buñuel that he will pay for his next movie if he wins the prize.",
+            "popularity": 4.992,
+            "poster_path": "/oHYRYgEcpjD6tXRxMr5xisjJCU4.jpg",
+            "production_companies": [
+              {
+                "id": 117634,
+                "logo_path": null,
+                "name": "Sygnatia",
+                "origin_country": "ES"
+              },
+              {
+                "id": 80408,
+                "logo_path": null,
+                "name": "The Glow",
+                "origin_country": "ES"
+              },
+              {
+                "id": 55968,
+                "logo_path": "/r2lAO54uFXiqmMmURMwlu1RQaJE.png",
+                "name": "Submarine",
+                "origin_country": "NL"
+              },
+              {
+                "id": 17272,
+                "logo_path": null,
+                "name": "Hampa Animation Studio",
+                "origin_country": "ES"
+              },
+              {
+                "id": 67412,
+                "logo_path": "/vgVqq5hunVs8GN5Je9d9rG7Q2NU.png",
+                "name": "Movistar+",
+                "origin_country": "ES"
+              },
+              {
+                "id": 10015,
+                "logo_path": null,
+                "name": "TeleMadrid",
+                "origin_country": "ES"
+              },
+              {
+                "id": 37948,
+                "logo_path": null,
+                "name": "Canal Extremadura",
+                "origin_country": "ES"
+              },
+              {
+                "id": 11292,
+                "logo_path": "/wxQY6xZAWIiXszJnI0Anhx2ErBC.png",
+                "name": "Aragón Televisión",
+                "origin_country": "ES"
+              },
+              {
+                "id": 11237,
+                "logo_path": null,
+                "name": "ZDF/Arte",
+                "origin_country": "DE"
+              },
+              {
+                "id": 981,
+                "logo_path": "/pkrdO9ykplO4Zc8edikoSX5APUN.png",
+                "name": "TVE",
+                "origin_country": "ES"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "DE",
+                "name": "Germany"
+              },
+              {
+                "iso_3166_1": "NL",
+                "name": "Netherlands"
+              },
+              {
+                "iso_3166_1": "ES",
+                "name": "Spain"
+              }
+            ],
+            "release_date": "2019-04-18",
+            "revenue": 0,
+            "runtime": 82,
+            "spoken_languages": [
+              {
+                "english_name": "French",
+                "iso_639_1": "fr",
+                "name": "Français"
+              },
+              {
+                "english_name": "Spanish",
+                "iso_639_1": "es",
+                "name": "Español"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "Buñuel in the Labyrinth of the Turtles",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 54
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/lNyLSOKMMeUPr1RsL4KcRuIXwHt.jpg",
+            "belongs_to_collection": {
+              "id": 558216,
+              "name": "Venom Collection",
+              "poster_path": "/670x9sf0Ru8y6ezBggmYudx61yB.jpg",
+              "backdrop_path": "/rhLspFB1B8ZCkWEHFYmc3NKagzq.jpg"
+            },
+            "budget": 110000000,
+            "genres": [
+              {
+                "id": 878,
+                "name": "Science Fiction"
+              },
+              {
+                "id": 28,
+                "name": "Action"
+              }
+            ],
+            "homepage": "https://www.venom.movie",
+            "id": 580489,
+            "imdb_id": "tt7097896",
+            "original_language": "en",
+            "original_title": "Venom: Let There Be Carnage",
+            "overview": "After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.",
+            "popularity": 9595.454,
+            "poster_path": "/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg",
+            "production_companies": [
+              {
+                "id": 7505,
+                "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+                "name": "Marvel Entertainment",
+                "origin_country": "US"
+              },
+              {
+                "id": 84041,
+                "logo_path": "/XmHMPGzdI5c4WGX1YlxU4s2v7T.png",
+                "name": "Pascal Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 5,
+                "logo_path": "/71BqEFAF4V3qjjMPCpLuyJFB9A.png",
+                "name": "Columbia Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 34,
+                "logo_path": "/GagSvqWlyPdkFHMfQ3pNq6ix9P.png",
+                "name": "Sony Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 81620,
+                "logo_path": "/gNp4dfuBOXmVWdGKb63NfbFNbFi.png",
+                "name": "Tencent Pictures",
+                "origin_country": "CN"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "CN",
+                "name": "China"
+              },
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2021-09-30",
+            "revenue": 191000000,
+            "runtime": 97,
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Released",
+            "tagline": "",
+            "title": "Venom: Let There Be Carnage",
+            "video": false,
+            "vote_average": 7.2,
+            "vote_count": 593
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/VuukZLgaCrho2Ar8Scl9HtV3yD.jpg",
+            "belongs_to_collection": {
+              "id": 558216,
+              "name": "Venom Collection",
+              "poster_path": "/670x9sf0Ru8y6ezBggmYudx61yB.jpg",
+              "backdrop_path": "/rhLspFB1B8ZCkWEHFYmc3NKagzq.jpg"
+            },
+            "budget": 116000000,
+            "genres": [
+              {
+                "id": 878,
+                "name": "Science Fiction"
+              },
+              {
+                "id": 28,
+                "name": "Action"
+              }
+            ],
+            "homepage": "http://www.venom.movie/site/",
+            "id": 335983,
+            "imdb_id": "tt1270797",
+            "original_language": "en",
+            "original_title": "Venom",
+            "overview": "Investigative journalist Eddie Brock attempts a comeback following a scandal, but accidentally becomes the host of Venom, a violent, super powerful alien symbiote. Soon, he must rely on his newfound powers to protect the world from a shadowy organization looking for a symbiote of their own.",
+            "popularity": 3311.342,
+            "poster_path": "/2uNW4WbgBXL25BAbXGLnLqX71Sw.jpg",
+            "production_companies": [
+              {
+                "id": 31828,
+                "logo_path": null,
+                "name": "Avi Arad Productions",
+                "origin_country": "US"
+              },
+              {
+                "id": 53462,
+                "logo_path": null,
+                "name": "Matt Tolmach Productions",
+                "origin_country": "US"
+              },
+              {
+                "id": 84041,
+                "logo_path": "/XmHMPGzdI5c4WGX1YlxU4s2v7T.png",
+                "name": "Pascal Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 7505,
+                "logo_path": "/837VMM4wOkODc1idNxGT0KQJlej.png",
+                "name": "Marvel Entertainment",
+                "origin_country": "US"
+              },
+              {
+                "id": 81620,
+                "logo_path": "/gNp4dfuBOXmVWdGKb63NfbFNbFi.png",
+                "name": "Tencent Pictures",
+                "origin_country": "CN"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "CN",
+                "name": "China"
+              },
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2018-09-28",
+            "revenue": 855013954,
+            "runtime": 112,
+            "spoken_languages": [
+              {
+                "english_name": "Mandarin",
+                "iso_639_1": "zh",
+                "name": "普通话"
+              },
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              },
+              {
+                "english_name": "Malay",
+                "iso_639_1": "ms",
+                "name": "Bahasa melayu"
+              }
+            ],
+            "status": "Released",
+            "tagline": "The world has enough Superheroes.",
+            "title": "Venom",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 11704
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/8Y43POKjjKDGI9MH89NW0NAzzp8.jpg",
+            "belongs_to_collection": {
+              "id": 861415,
+              "name": "Free Guy Collection",
+              "poster_path": "/o9iYeSBx7lwWRDEt8QPWbKZZlJm.jpg",
+              "backdrop_path": "/9aDeWSxwfpOFjpw1XwRjLGnlcJm.jpg"
+            },
+            "budget": 110000000,
+            "genres": [
+              {
+                "id": 35,
+                "name": "Comedy"
+              },
+              {
+                "id": 28,
+                "name": "Action"
+              },
+              {
+                "id": 12,
+                "name": "Adventure"
+              },
+              {
+                "id": 878,
+                "name": "Science Fiction"
+              }
+            ],
+            "homepage": "https://www.20thcenturystudios.com/movies/free-guy",
+            "id": 550988,
+            "imdb_id": "tt6264654",
+            "original_language": "en",
+            "original_title": "Free Guy",
+            "overview": "A bank teller called Guy realizes he is a background character in an open world video game called Free City that will soon go offline.",
+            "popularity": 4453.048,
+            "poster_path": "/xmbU4JTUm8rsdtn7Y3Fcm30GpeT.jpg",
+            "production_companies": [
+              {
+                "id": 27711,
+                "logo_path": "/3e294jszfE6cE8TOogmj0zNd6pL.png",
+                "name": "Berlanti Productions",
+                "origin_country": "US"
+              },
+              {
+                "id": 2575,
+                "logo_path": "/9YJrHYlcfHtwtulkFMAies3aFEl.png",
+                "name": "21 Laps Entertainment",
+                "origin_country": "US"
+              },
+              {
+                "id": 104228,
+                "logo_path": null,
+                "name": "Maximum Effort",
+                "origin_country": "US"
+              },
+              {
+                "id": 125000,
+                "logo_path": null,
+                "name": "Lit Entertainment Group",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2021-08-11",
+            "revenue": 324000000,
+            "runtime": 115,
+            "spoken_languages": [
+              {
+                "english_name": "Japanese",
+                "iso_639_1": "ja",
+                "name": "日本語"
+              },
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Released",
+            "tagline": "Life's too short to be a background character.",
+            "title": "Free Guy",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 2645
+          },
+          {
+            "adult": false,
+            "backdrop_path": "/2cdrhlf3hvvueGyQDx0u8jpWvQR.jpg",
+            "belongs_to_collection": {
+              "id": 91361,
+              "name": "Halloween Collection",
+              "poster_path": "/rv9SZcjJBzutpk3FzPjdEfaKOF2.jpg",
+              "backdrop_path": "/d6uWYZe7h7M3F7h4IBjO1jgIkMh.jpg"
+            },
+            "budget": 20000000,
+            "genres": [
+              {
+                "id": 27,
+                "name": "Horror"
+              },
+              {
+                "id": 53,
+                "name": "Thriller"
+              }
+            ],
+            "homepage": "https://www.halloweenmovie.com",
+            "id": 610253,
+            "imdb_id": "tt10665338",
+            "original_language": "en",
+            "original_title": "Halloween Kills",
+            "overview": "Minutes after Laurie Strode, her daughter Karen and granddaughter Allyson left masked monster Michael Myers caged and burning in Laurie's basement, Laurie is rushed to the hospital with life-threatening injuries, believing she finally killed her lifelong tormentor. But when Michael manages to free himself from Laurie's trap, his ritual bloodbath resumes. As Laurie fights her pain and prepares to defend herself against him, she inspires all of Haddonfield to rise up against their unstoppable monster. The Strode women join a group of other survivors of Michael's first rampage who decide to take matters into their own hands, forming a vigilante mob that sets out to hunt Michael down, once and for all.",
+            "popularity": 1883.571,
+            "poster_path": "/qmJGd5IfURq8iPQ9KF3les47vFS.jpg",
+            "production_companies": [
+              {
+                "id": 33,
+                "logo_path": "/8lvHyhjr8oUKOOy2dKXoALWKdp0.png",
+                "name": "Universal Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 3172,
+                "logo_path": "/kDedjRZwO8uyFhuHamomOhN6fzG.png",
+                "name": "Blumhouse Productions",
+                "origin_country": "US"
+              },
+              {
+                "id": 145708,
+                "logo_path": null,
+                "name": "Home Again Productions",
+                "origin_country": ""
+              },
+              {
+                "id": 14,
+                "logo_path": "/m6AHu84oZQxvq7n1rsvMNJIAsMu.png",
+                "name": "Miramax",
+                "origin_country": "US"
+              },
+              {
+                "id": 20848,
+                "logo_path": "/htPfdm3yNRVsDz8CyyMozALKOO0.png",
+                "name": "Rough House Pictures",
+                "origin_country": "US"
+              },
+              {
+                "id": 15822,
+                "logo_path": "/Aodu1OPI0LHTWYr7Jlm4R2XY2og.png",
+                "name": "Trancas International Films",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "GB",
+                "name": "United Kingdom"
+              },
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "release_date": "2021-10-14",
+            "revenue": 55800000,
+            "runtime": 105,
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Released",
+            "tagline": "Evil dies tonight.",
+            "title": "Halloween Kills",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 437
+          }
+        ]
+      },
+      "tv": {
+        "watched": [
+          {
+            "backdrop_path": "/oaGvjB0DvdhXhOAuADfHb261ZHa.jpg",
+            "first_air_date": "2021-09-17",
+            "genre_ids": [
+              10759,
+              9648,
+              18
+            ],
+            "id": 93405,
+            "name": "Squid Game",
+            "origin_country": [
+              "KR"
+            ],
+            "original_language": "ko",
+            "original_name": "오징어 게임",
+            "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
+            "popularity": 7949.302,
+            "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+            "vote_average": 7.9,
+            "vote_count": 7127
+          },
+          {
+            "backdrop_path": "/ktDJ21QQscbMNQfPpZBsNORxdDx.jpg",
+            "created_by": [
+              {
+                "id": 1222585,
+                "credit_id": "55fdc50ec3a368132a001852",
+                "name": "Tom Kapinos",
+                "gender": 2,
+                "profile_path": "/ol7GfeO0OIDCWGYzlg1LDLmwluO.jpg"
+              }
+            ],
+            "episode_run_time": [
+              45,
+              62
+            ],
+            "first_air_date": "2016-01-25",
+            "genres": [
+              {
+                "id": 80,
+                "name": "Crime"
+              },
+              {
+                "id": 10765,
+                "name": "Sci-Fi & Fantasy"
+              }
+            ],
+            "homepage": "https://www.netflix.com/title/80057918",
+            "id": 63174,
+            "in_production": false,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2021-09-10",
+            "last_episode_to_air": {
+              "air_date": "2021-09-10",
+              "episode_number": 10,
+              "id": 2910296,
+              "name": "Partners ‘Til the End",
+              "overview": "Desperate to rescue Rory, Lucifer and Chloe confront her kidnapper with guns and wings blazing. Lucifer finally comes to terms with his purpose.",
+              "production_code": "T13.22910",
+              "season_number": 6,
+              "still_path": "/dahmfbzyZQMu9F8oryOlOQgWKAw.jpg",
+              "vote_average": 7.5,
+              "vote_count": 1
+            },
+            "name": "Lucifer",
+            "next_episode_to_air": null,
+            "networks": [
+              {
+                "name": "FOX",
+                "id": 19,
+                "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+                "origin_country": "US"
+              },
+              {
+                "name": "Netflix",
+                "id": 213,
+                "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+                "origin_country": ""
+              }
+            ],
+            "number_of_episodes": 93,
+            "number_of_seasons": 6,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Lucifer",
+            "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+            "popularity": 1360.091,
+            "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+            "production_companies": [
+              {
+                "id": 43346,
+                "logo_path": null,
+                "name": "Fox Productions",
+                "origin_country": "US"
+              },
+              {
+                "id": 1957,
+                "logo_path": "/3T19XSr6yqaLNK8uJWFImPgRax0.png",
+                "name": "Warner Bros. Television",
+                "origin_country": "US"
+              },
+              {
+                "id": 57542,
+                "logo_path": null,
+                "name": "Aggressive Mediocrity",
+                "origin_country": "US"
+              },
+              {
+                "id": 9993,
+                "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+                "name": "DC Entertainment",
+                "origin_country": "US"
+              },
+              {
+                "id": 40041,
+                "logo_path": "/oP8TmVSh9DCP1yhR2yvjnKfMgbg.png",
+                "name": "Jerry Bruckheimer Television",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "seasons": [
+              {
+                "air_date": "2015-07-10",
+                "episode_count": 4,
+                "id": 70781,
+                "name": "Specials",
+                "overview": "",
+                "poster_path": "/bQ5FupU7DFTbx9pSgPsEZQwyZKj.jpg",
+                "season_number": 0
+              },
+              {
+                "air_date": "2016-01-25",
+                "episode_count": 13,
+                "id": 68415,
+                "name": "Season 1",
+                "overview": "Bored with being the Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective.",
+                "poster_path": "/9qvNXKYqZEsYn3g3yn5tXQe0ceB.jpg",
+                "season_number": 1
+              },
+              {
+                "air_date": "2016-09-19",
+                "episode_count": 18,
+                "id": 78529,
+                "name": "Season 2",
+                "overview": "Lucifer returns for another season, but his devil-may-care attitude may soon need an adjustment: His mother is coming to town.",
+                "poster_path": "/fTQzbse8HKh0z6UJbMUumdbZ8PX.jpg",
+                "season_number": 2
+              },
+              {
+                "air_date": "2017-10-02",
+                "episode_count": 26,
+                "id": 91441,
+                "name": "Season 3",
+                "overview": "As Lucifer struggles with an identity crisis, a gruff new police lieutenant shakes up the status quo with Chloe and the rest of the LAPD.",
+                "poster_path": "/4mKbrTqGg1daz3pDUgqd9ZSdZRt.jpg",
+                "season_number": 3
+              },
+              {
+                "air_date": "2019-05-08",
+                "episode_count": 10,
+                "id": 117593,
+                "name": "Season 4",
+                "overview": "As Chloe struggles to come to terms with Lucifer's disturbing revelation, a rogue priest sets out to stop a long-rumored prophecy.",
+                "poster_path": "/k9sLJE5geAmOCXOCbKnhSNND60J.jpg",
+                "season_number": 4
+              },
+              {
+                "air_date": "2020-08-21",
+                "episode_count": 16,
+                "id": 152759,
+                "name": "Season 5",
+                "overview": "Lucifer makes a tumultuous return to the land of the living in hopes of making things right with Chloe. A devil’s work is never done.",
+                "poster_path": "/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg",
+                "season_number": 5
+              },
+              {
+                "air_date": "2021-09-10",
+                "episode_count": 10,
+                "id": 192616,
+                "name": "Season 6",
+                "overview": "Lucifer scored the promotion, but does he really want the job? Plus, Chloe prepares to give up detective work, Amenadiel joins the LAPD, and more.",
+                "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+                "season_number": 6
+              }
+            ],
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Ended",
+            "tagline": "All bad things must come to an end.",
+            "type": "Scripted",
+            "vote_average": 8.5,
+            "vote_count": 10695
+          },
+          {
+            "backdrop_path": "/oC9SgtJTDCEpWnTBtVGoAvjl5hb.jpg",
+            "created_by": [],
+            "episode_run_time": [
+              60,
+              42
+            ],
+            "first_air_date": "2006-09-18",
+            "genres": [
+              {
+                "id": 10767,
+                "name": "Talk"
+              }
+            ],
+            "homepage": "http://www.rachaelrayshow.com/",
+            "id": 1991,
+            "in_production": true,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2021-10-13",
+            "last_episode_to_air": {
+              "air_date": "2021-10-13",
+              "episode_number": 23,
+              "id": 3273749,
+              "name": "It's Our Housewarming Party! Surprise Guests, José Andrés + Rach Makes Tacos",
+              "overview": "Welcome to our housewarming party! We're back in New York City and showing off our brand-new set with some surprise guests. Then, Rachael's hosting taco night and Chef José Andrés joins us from his kitchen.",
+              "production_code": "",
+              "season_number": 16,
+              "still_path": null,
+              "vote_average": 0,
+              "vote_count": 0
+            },
+            "name": "Rachael Ray",
+            "next_episode_to_air": {
+              "air_date": "2021-10-14",
+              "episode_number": 24,
+              "id": 3273750,
+              "name": "Anthony Anderson Talks Final Season of Black-ish + Rach's Shortcut Rotisserie Chicken Noodle Dish",
+              "overview": "\"Black-ish\" star Anthony Anderson is back and dishing on filming the show's final season. Plus, he brought his mom, Doris! The hilarious duo has teamed up to prank people on their new show. For dinner, Rachael's using a store-bought rotisserie chicken to make a simple noodle dish.",
+              "production_code": "",
+              "season_number": 16,
+              "still_path": null,
+              "vote_average": 0,
+              "vote_count": 0
+            },
+            "networks": [
+              {
+                "name": "Syndication",
+                "id": 184,
+                "logo_path": "/jjr5fB7Cboj0ZZl101iAeSiVuCA.png",
+                "origin_country": ""
+              }
+            ],
+            "number_of_episodes": 1046,
+            "number_of_seasons": 13,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Rachael Ray",
+            "overview": "Rachael Ray, also known as The Rachael Ray Show, is an American talk show starring Rachael Ray that debuted in syndication in the United States and Canada on September 18, 2006. It is filmed at Chelsea Television Studios in New York City. The show's 8th season premiered on September 9, 2013, and became the last Harpo show in syndication to switch to HD with a revamped studio. In January 2012, CBS Television Distribution announced a two-year renewal for the show, taking it through the 2013–14 season.",
+            "popularity": 2102.218,
+            "poster_path": "/dsAJhCLYX1fiNRoiiJqR6Up4aJ.jpg",
+            "production_companies": [],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "seasons": [
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5906,
+                "name": "Specials",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 0
+              },
+              {
+                "air_date": "2006-09-18",
+                "episode_count": 211,
+                "id": 5904,
+                "name": "Season 1",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 1
+              },
+              {
+                "air_date": null,
+                "episode_count": 84,
+                "id": 5905,
+                "name": "Season 2",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 2
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5907,
+                "name": "Season 3",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 3
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5908,
+                "name": "Season 4",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 4
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5909,
+                "name": "Season 5",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 5
+              },
+              {
+                "air_date": null,
+                "episode_count": 123,
+                "id": 5910,
+                "name": "Season 6",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 6
+              },
+              {
+                "air_date": null,
+                "episode_count": 180,
+                "id": 5911,
+                "name": "Season 8",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 8
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 77032,
+                "name": "Season 9",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 9
+              },
+              {
+                "air_date": "2015-09-14",
+                "episode_count": 2,
+                "id": 77033,
+                "name": "Season 10",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 10
+              },
+              {
+                "air_date": "2018-09-10",
+                "episode_count": 101,
+                "id": 117911,
+                "name": "Season 13",
+                "overview": "Season 13 new season begins Sept 10, 2018",
+                "poster_path": null,
+                "season_number": 13
+              },
+              {
+                "air_date": "2019-09-09",
+                "episode_count": 160,
+                "id": 132052,
+                "name": "Season 14",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 14
+              },
+              {
+                "air_date": "2020-09-14",
+                "episode_count": 160,
+                "id": 162255,
+                "name": "Season 15",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 15
+              },
+              {
+                "air_date": "2021-09-13",
+                "episode_count": 25,
+                "id": 210457,
+                "name": "Season 16",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 16
+              }
+            ],
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Returning Series",
+            "tagline": "",
+            "type": "Talk Show",
+            "vote_average": 6.1,
+            "vote_count": 27
+          },
+          {
+            "backdrop_path": "/aJGPkrye2p8qzM42xSUtRvrZ5Ou.jpg",
+            "created_by": [
+              {
+                "id": 1709212,
+                "credit_id": "5d362503caab6d7c80961159",
+                "name": "Owen Dennis",
+                "gender": 2,
+                "profile_path": null
+              }
+            ],
+            "episode_run_time": [
+              11
+            ],
+            "first_air_date": "2019-08-05",
+            "genres": [
+              {
+                "id": 10751,
+                "name": "Family"
+              },
+              {
+                "id": 16,
+                "name": "Animation"
+              },
+              {
+                "id": 10765,
+                "name": "Sci-Fi & Fantasy"
+              },
+              {
+                "id": 10759,
+                "name": "Action & Adventure"
+              },
+              {
+                "id": 10762,
+                "name": "Kids"
+              },
+              {
+                "id": 9648,
+                "name": "Mystery"
+              }
+            ],
+            "homepage": "https://www.hbomax.com/infinity-train",
+            "id": 91425,
+            "in_production": false,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2021-04-15",
+            "last_episode_to_air": {
+              "air_date": "2021-04-15",
+              "episode_number": 10,
+              "id": 2875957,
+              "name": "The Train to Nowhere",
+              "overview": "Ryan and Min-Gi are forced to face the truth and a final challenge if they ever want to go home.",
+              "production_code": "",
+              "season_number": 4,
+              "still_path": "/lLujVBgsmDN5Qo7c7r9o7Kl4VRV.jpg",
+              "vote_average": 0,
+              "vote_count": 0
+            },
+            "name": "Infinity Train",
+            "next_episode_to_air": null,
+            "networks": [
+              {
+                "name": "Cartoon Network",
+                "id": 56,
+                "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+                "origin_country": "US"
+              },
+              {
+                "name": "HBO Max",
+                "id": 3186,
+                "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
+                "origin_country": "US"
+              }
+            ],
+            "number_of_episodes": 40,
+            "number_of_seasons": 4,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Infinity Train",
+            "overview": "Passengers on board the mysterious Infinity Train must explore a series of endless cars that each contain unique worlds and puzzles to solve in order to unravel the mysteries of the train - and within themselves - to open the doorway home.",
+            "popularity": 34.051,
+            "poster_path": "/jbobEBeSyPs2gPa2Kwz8FuDfWl9.jpg",
+            "production_companies": [
+              {
+                "id": 7899,
+                "logo_path": "/qnhd98hnBxCMMMod58FJqbCZ5O7.png",
+                "name": "Cartoon Network Studios",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "seasons": [
+              {
+                "air_date": "2019-10-17",
+                "episode_count": 12,
+                "id": 140490,
+                "name": "Specials",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 0
+              },
+              {
+                "air_date": "2019-08-05",
+                "episode_count": 10,
+                "id": 128205,
+                "name": "Book One: The Perennial Child",
+                "overview": "13-year-old Tulip finds herself on a mysterious train with an endless number of cars, each one its own universe, and must find a way to get home.",
+                "poster_path": "/wEhc48kGjoWw8qcHu2Lar7NFrgG.jpg",
+                "season_number": 1
+              },
+              {
+                "air_date": "2020-01-06",
+                "episode_count": 10,
+                "id": 138602,
+                "name": "Book Two: Cracked Reflection",
+                "overview": "",
+                "poster_path": "/wAm6kfhlS6ha9LBfeKVCJWwn574.jpg",
+                "season_number": 2
+              },
+              {
+                "air_date": "2020-08-13",
+                "episode_count": 10,
+                "id": 156884,
+                "name": "Book Three: Cult of the Conductor",
+                "overview": "In Book 3, Grace and Simon are the leaders of the Apex, an anarchic group of kids on a mysterious train. During one of their destructive missions, Grace and Simon get separated from the rest of the Apex and must find their way back. As the duo navigate through the myriad worlds of the train, they meet Hazel, an optimistic young girl, and Tuba, her gentle gorilla companion. Will Grace and Simon find new inspiration in Hazel’s innocence, or will the ways of the Apex recruit yet another aboard the train?",
+                "poster_path": "/c234zOS7kifNN2mb6BbIy7Z09oO.jpg",
+                "season_number": 3
+              },
+              {
+                "air_date": "2021-04-15",
+                "episode_count": 10,
+                "id": 182497,
+                "name": "Book Four: Duet",
+                "overview": "",
+                "poster_path": "/jbobEBeSyPs2gPa2Kwz8FuDfWl9.jpg",
+                "season_number": 4
+              }
+            ],
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Ended",
+            "tagline": "",
+            "type": "Scripted",
+            "vote_average": 8.5,
+            "vote_count": 84
+          }
+        ],
+        "watch_list": [
+          {
+            "backdrop_path": "/oaGvjB0DvdhXhOAuADfHb261ZHa.jpg",
+            "first_air_date": "2021-09-17",
+            "genre_ids": [
+              10759,
+              9648,
+              18
+            ],
+            "id": 93405,
+            "name": "Squid Game",
+            "origin_country": [
+              "KR"
+            ],
+            "original_language": "ko",
+            "original_name": "오징어 게임",
+            "overview": "Hundreds of cash-strapped players accept a strange invitation to compete in children's games—with high stakes. But, a tempting prize awaits the victor.",
+            "popularity": 7949.302,
+            "poster_path": "/dDlEmu3EZ0Pgg93K2SVNLCjCSvE.jpg",
+            "vote_average": 7.9,
+            "vote_count": 7127
+          },
+          {
+            "backdrop_path": "/ktDJ21QQscbMNQfPpZBsNORxdDx.jpg",
+            "created_by": [
+              {
+                "id": 1222585,
+                "credit_id": "55fdc50ec3a368132a001852",
+                "name": "Tom Kapinos",
+                "gender": 2,
+                "profile_path": "/ol7GfeO0OIDCWGYzlg1LDLmwluO.jpg"
+              }
+            ],
+            "episode_run_time": [
+              45,
+              62
+            ],
+            "first_air_date": "2016-01-25",
+            "genres": [
+              {
+                "id": 80,
+                "name": "Crime"
+              },
+              {
+                "id": 10765,
+                "name": "Sci-Fi & Fantasy"
+              }
+            ],
+            "homepage": "https://www.netflix.com/title/80057918",
+            "id": 63174,
+            "in_production": false,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2021-09-10",
+            "last_episode_to_air": {
+              "air_date": "2021-09-10",
+              "episode_number": 10,
+              "id": 2910296,
+              "name": "Partners ‘Til the End",
+              "overview": "Desperate to rescue Rory, Lucifer and Chloe confront her kidnapper with guns and wings blazing. Lucifer finally comes to terms with his purpose.",
+              "production_code": "T13.22910",
+              "season_number": 6,
+              "still_path": "/dahmfbzyZQMu9F8oryOlOQgWKAw.jpg",
+              "vote_average": 7.5,
+              "vote_count": 1
+            },
+            "name": "Lucifer",
+            "next_episode_to_air": null,
+            "networks": [
+              {
+                "name": "FOX",
+                "id": 19,
+                "logo_path": "/1DSpHrWyOORkL9N2QHX7Adt31mQ.png",
+                "origin_country": "US"
+              },
+              {
+                "name": "Netflix",
+                "id": 213,
+                "logo_path": "/wwemzKWzjKYJFfCeiB57q3r4Bcm.png",
+                "origin_country": ""
+              }
+            ],
+            "number_of_episodes": 93,
+            "number_of_seasons": 6,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Lucifer",
+            "overview": "Bored and unhappy as the Lord of Hell, Lucifer Morningstar abandoned his throne and retired to Los Angeles, where he has teamed up with LAPD detective Chloe Decker to take down criminals. But the longer he's away from the underworld, the greater the threat that the worst of humanity could escape.",
+            "popularity": 1360.091,
+            "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+            "production_companies": [
+              {
+                "id": 43346,
+                "logo_path": null,
+                "name": "Fox Productions",
+                "origin_country": "US"
+              },
+              {
+                "id": 1957,
+                "logo_path": "/3T19XSr6yqaLNK8uJWFImPgRax0.png",
+                "name": "Warner Bros. Television",
+                "origin_country": "US"
+              },
+              {
+                "id": 57542,
+                "logo_path": null,
+                "name": "Aggressive Mediocrity",
+                "origin_country": "US"
+              },
+              {
+                "id": 9993,
+                "logo_path": "/2Tc1P3Ac8M479naPp1kYT3izLS5.png",
+                "name": "DC Entertainment",
+                "origin_country": "US"
+              },
+              {
+                "id": 40041,
+                "logo_path": "/oP8TmVSh9DCP1yhR2yvjnKfMgbg.png",
+                "name": "Jerry Bruckheimer Television",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "seasons": [
+              {
+                "air_date": "2015-07-10",
+                "episode_count": 4,
+                "id": 70781,
+                "name": "Specials",
+                "overview": "",
+                "poster_path": "/bQ5FupU7DFTbx9pSgPsEZQwyZKj.jpg",
+                "season_number": 0
+              },
+              {
+                "air_date": "2016-01-25",
+                "episode_count": 13,
+                "id": 68415,
+                "name": "Season 1",
+                "overview": "Bored with being the Lord of Hell, the devil relocates to Los Angeles, where he opens a nightclub and forms a connection with a homicide detective.",
+                "poster_path": "/9qvNXKYqZEsYn3g3yn5tXQe0ceB.jpg",
+                "season_number": 1
+              },
+              {
+                "air_date": "2016-09-19",
+                "episode_count": 18,
+                "id": 78529,
+                "name": "Season 2",
+                "overview": "Lucifer returns for another season, but his devil-may-care attitude may soon need an adjustment: His mother is coming to town.",
+                "poster_path": "/fTQzbse8HKh0z6UJbMUumdbZ8PX.jpg",
+                "season_number": 2
+              },
+              {
+                "air_date": "2017-10-02",
+                "episode_count": 26,
+                "id": 91441,
+                "name": "Season 3",
+                "overview": "As Lucifer struggles with an identity crisis, a gruff new police lieutenant shakes up the status quo with Chloe and the rest of the LAPD.",
+                "poster_path": "/4mKbrTqGg1daz3pDUgqd9ZSdZRt.jpg",
+                "season_number": 3
+              },
+              {
+                "air_date": "2019-05-08",
+                "episode_count": 10,
+                "id": 117593,
+                "name": "Season 4",
+                "overview": "As Chloe struggles to come to terms with Lucifer's disturbing revelation, a rogue priest sets out to stop a long-rumored prophecy.",
+                "poster_path": "/k9sLJE5geAmOCXOCbKnhSNND60J.jpg",
+                "season_number": 4
+              },
+              {
+                "air_date": "2020-08-21",
+                "episode_count": 16,
+                "id": 152759,
+                "name": "Season 5",
+                "overview": "Lucifer makes a tumultuous return to the land of the living in hopes of making things right with Chloe. A devil’s work is never done.",
+                "poster_path": "/4EYPN5mVIhKLfxGruy7Dy41dTVn.jpg",
+                "season_number": 5
+              },
+              {
+                "air_date": "2021-09-10",
+                "episode_count": 10,
+                "id": 192616,
+                "name": "Season 6",
+                "overview": "Lucifer scored the promotion, but does he really want the job? Plus, Chloe prepares to give up detective work, Amenadiel joins the LAPD, and more.",
+                "poster_path": "/ekZobS8isE6mA53RAiGDG93hBxL.jpg",
+                "season_number": 6
+              }
+            ],
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Ended",
+            "tagline": "All bad things must come to an end.",
+            "type": "Scripted",
+            "vote_average": 8.5,
+            "vote_count": 10695
+          },
+          {
+            "backdrop_path": "/oC9SgtJTDCEpWnTBtVGoAvjl5hb.jpg",
+            "created_by": [],
+            "episode_run_time": [
+              60,
+              42
+            ],
+            "first_air_date": "2006-09-18",
+            "genres": [
+              {
+                "id": 10767,
+                "name": "Talk"
+              }
+            ],
+            "homepage": "http://www.rachaelrayshow.com/",
+            "id": 1991,
+            "in_production": true,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2021-10-13",
+            "last_episode_to_air": {
+              "air_date": "2021-10-13",
+              "episode_number": 23,
+              "id": 3273749,
+              "name": "It's Our Housewarming Party! Surprise Guests, José Andrés + Rach Makes Tacos",
+              "overview": "Welcome to our housewarming party! We're back in New York City and showing off our brand-new set with some surprise guests. Then, Rachael's hosting taco night and Chef José Andrés joins us from his kitchen.",
+              "production_code": "",
+              "season_number": 16,
+              "still_path": null,
+              "vote_average": 0,
+              "vote_count": 0
+            },
+            "name": "Rachael Ray",
+            "next_episode_to_air": {
+              "air_date": "2021-10-14",
+              "episode_number": 24,
+              "id": 3273750,
+              "name": "Anthony Anderson Talks Final Season of Black-ish + Rach's Shortcut Rotisserie Chicken Noodle Dish",
+              "overview": "\"Black-ish\" star Anthony Anderson is back and dishing on filming the show's final season. Plus, he brought his mom, Doris! The hilarious duo has teamed up to prank people on their new show. For dinner, Rachael's using a store-bought rotisserie chicken to make a simple noodle dish.",
+              "production_code": "",
+              "season_number": 16,
+              "still_path": null,
+              "vote_average": 0,
+              "vote_count": 0
+            },
+            "networks": [
+              {
+                "name": "Syndication",
+                "id": 184,
+                "logo_path": "/jjr5fB7Cboj0ZZl101iAeSiVuCA.png",
+                "origin_country": ""
+              }
+            ],
+            "number_of_episodes": 1046,
+            "number_of_seasons": 13,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Rachael Ray",
+            "overview": "Rachael Ray, also known as The Rachael Ray Show, is an American talk show starring Rachael Ray that debuted in syndication in the United States and Canada on September 18, 2006. It is filmed at Chelsea Television Studios in New York City. The show's 8th season premiered on September 9, 2013, and became the last Harpo show in syndication to switch to HD with a revamped studio. In January 2012, CBS Television Distribution announced a two-year renewal for the show, taking it through the 2013–14 season.",
+            "popularity": 2102.218,
+            "poster_path": "/dsAJhCLYX1fiNRoiiJqR6Up4aJ.jpg",
+            "production_companies": [],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "seasons": [
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5906,
+                "name": "Specials",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 0
+              },
+              {
+                "air_date": "2006-09-18",
+                "episode_count": 211,
+                "id": 5904,
+                "name": "Season 1",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 1
+              },
+              {
+                "air_date": null,
+                "episode_count": 84,
+                "id": 5905,
+                "name": "Season 2",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 2
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5907,
+                "name": "Season 3",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 3
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5908,
+                "name": "Season 4",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 4
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 5909,
+                "name": "Season 5",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 5
+              },
+              {
+                "air_date": null,
+                "episode_count": 123,
+                "id": 5910,
+                "name": "Season 6",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 6
+              },
+              {
+                "air_date": null,
+                "episode_count": 180,
+                "id": 5911,
+                "name": "Season 8",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 8
+              },
+              {
+                "air_date": null,
+                "episode_count": 0,
+                "id": 77032,
+                "name": "Season 9",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 9
+              },
+              {
+                "air_date": "2015-09-14",
+                "episode_count": 2,
+                "id": 77033,
+                "name": "Season 10",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 10
+              },
+              {
+                "air_date": "2018-09-10",
+                "episode_count": 101,
+                "id": 117911,
+                "name": "Season 13",
+                "overview": "Season 13 new season begins Sept 10, 2018",
+                "poster_path": null,
+                "season_number": 13
+              },
+              {
+                "air_date": "2019-09-09",
+                "episode_count": 160,
+                "id": 132052,
+                "name": "Season 14",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 14
+              },
+              {
+                "air_date": "2020-09-14",
+                "episode_count": 160,
+                "id": 162255,
+                "name": "Season 15",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 15
+              },
+              {
+                "air_date": "2021-09-13",
+                "episode_count": 25,
+                "id": 210457,
+                "name": "Season 16",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 16
+              }
+            ],
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Returning Series",
+            "tagline": "",
+            "type": "Talk Show",
+            "vote_average": 6.1,
+            "vote_count": 27
+          },
+          {
+            "backdrop_path": "/aJGPkrye2p8qzM42xSUtRvrZ5Ou.jpg",
+            "created_by": [
+              {
+                "id": 1709212,
+                "credit_id": "5d362503caab6d7c80961159",
+                "name": "Owen Dennis",
+                "gender": 2,
+                "profile_path": null
+              }
+            ],
+            "episode_run_time": [
+              11
+            ],
+            "first_air_date": "2019-08-05",
+            "genres": [
+              {
+                "id": 10751,
+                "name": "Family"
+              },
+              {
+                "id": 16,
+                "name": "Animation"
+              },
+              {
+                "id": 10765,
+                "name": "Sci-Fi & Fantasy"
+              },
+              {
+                "id": 10759,
+                "name": "Action & Adventure"
+              },
+              {
+                "id": 10762,
+                "name": "Kids"
+              },
+              {
+                "id": 9648,
+                "name": "Mystery"
+              }
+            ],
+            "homepage": "https://www.hbomax.com/infinity-train",
+            "id": 91425,
+            "in_production": false,
+            "languages": [
+              "en"
+            ],
+            "last_air_date": "2021-04-15",
+            "last_episode_to_air": {
+              "air_date": "2021-04-15",
+              "episode_number": 10,
+              "id": 2875957,
+              "name": "The Train to Nowhere",
+              "overview": "Ryan and Min-Gi are forced to face the truth and a final challenge if they ever want to go home.",
+              "production_code": "",
+              "season_number": 4,
+              "still_path": "/lLujVBgsmDN5Qo7c7r9o7Kl4VRV.jpg",
+              "vote_average": 0,
+              "vote_count": 0
+            },
+            "name": "Infinity Train",
+            "next_episode_to_air": null,
+            "networks": [
+              {
+                "name": "Cartoon Network",
+                "id": 56,
+                "logo_path": "/c5OC6oVCg6QP4eqzW6XIq17CQjI.png",
+                "origin_country": "US"
+              },
+              {
+                "name": "HBO Max",
+                "id": 3186,
+                "logo_path": "/nmU0UMDJB3dRRQSTUqawzF2Od1a.png",
+                "origin_country": "US"
+              }
+            ],
+            "number_of_episodes": 40,
+            "number_of_seasons": 4,
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "Infinity Train",
+            "overview": "Passengers on board the mysterious Infinity Train must explore a series of endless cars that each contain unique worlds and puzzles to solve in order to unravel the mysteries of the train - and within themselves - to open the doorway home.",
+            "popularity": 30.144,
+            "poster_path": "/jbobEBeSyPs2gPa2Kwz8FuDfWl9.jpg",
+            "production_companies": [
+              {
+                "id": 7899,
+                "logo_path": "/qnhd98hnBxCMMMod58FJqbCZ5O7.png",
+                "name": "Cartoon Network Studios",
+                "origin_country": "US"
+              }
+            ],
+            "production_countries": [
+              {
+                "iso_3166_1": "US",
+                "name": "United States of America"
+              }
+            ],
+            "seasons": [
+              {
+                "air_date": "2019-10-17",
+                "episode_count": 12,
+                "id": 140490,
+                "name": "Specials",
+                "overview": "",
+                "poster_path": null,
+                "season_number": 0
+              },
+              {
+                "air_date": "2019-08-05",
+                "episode_count": 10,
+                "id": 128205,
+                "name": "Book One: The Perennial Child",
+                "overview": "13-year-old Tulip finds herself on a mysterious train with an endless number of cars, each one its own universe, and must find a way to get home.",
+                "poster_path": "/wEhc48kGjoWw8qcHu2Lar7NFrgG.jpg",
+                "season_number": 1
+              },
+              {
+                "air_date": "2020-01-06",
+                "episode_count": 10,
+                "id": 138602,
+                "name": "Book Two: Cracked Reflection",
+                "overview": "",
+                "poster_path": "/wAm6kfhlS6ha9LBfeKVCJWwn574.jpg",
+                "season_number": 2
+              },
+              {
+                "air_date": "2020-08-13",
+                "episode_count": 10,
+                "id": 156884,
+                "name": "Book Three: Cult of the Conductor",
+                "overview": "In Book 3, Grace and Simon are the leaders of the Apex, an anarchic group of kids on a mysterious train. During one of their destructive missions, Grace and Simon get separated from the rest of the Apex and must find their way back. As the duo navigate through the myriad worlds of the train, they meet Hazel, an optimistic young girl, and Tuba, her gentle gorilla companion. Will Grace and Simon find new inspiration in Hazel’s innocence, or will the ways of the Apex recruit yet another aboard the train?",
+                "poster_path": "/c234zOS7kifNN2mb6BbIy7Z09oO.jpg",
+                "season_number": 3
+              },
+              {
+                "air_date": "2021-04-15",
+                "episode_count": 10,
+                "id": 182497,
+                "name": "Book Four: Duet",
+                "overview": "",
+                "poster_path": "/jbobEBeSyPs2gPa2Kwz8FuDfWl9.jpg",
+                "season_number": 4
+              }
+            ],
+            "spoken_languages": [
+              {
+                "english_name": "English",
+                "iso_639_1": "en",
+                "name": "English"
+              }
+            ],
+            "status": "Ended",
+            "tagline": "",
+            "type": "Scripted",
+            "vote_average": 8.5,
+            "vote_count": 82
+          },
+          {
+            "backdrop_path": "/yF7G00lb3AbCSa8ZPgR8M4nFtFL.jpg",
+            "first_air_date": "2020-09-14",
+            "genre_ids": [],
+            "id": 107602,
+            "name": "5 chefs dans ma cuisine",
+            "origin_country": [
+              "CA"
+            ],
+            "original_language": "fr",
+            "original_name": "5 chefs dans ma cuisine",
+            "overview": "",
+            "popularity": 1551.946,
+            "poster_path": "/2UuRWSoLCTohtKOTpKI1lwL5GrD.jpg",
+            "vote_average": 1.7,
+            "vote_count": 3
+          },
+          {
+            "backdrop_path": "/1HiLMi66dO8Ia7EsPT2D9FwK5tL.jpg",
+            "first_air_date": "2021-09-28",
+            "genre_ids": [
+              18,
+              10765,
+              10759
+            ],
+            "id": 128839,
+            "name": "La Brea",
+            "origin_country": [
+              "US"
+            ],
+            "original_language": "en",
+            "original_name": "La Brea",
+            "overview": "When a massive sinkhole mysteriously opens in Los Angeles, it tears a family in half, separating mother and son from father and daughter. When part of the family finds themselves in an unexplainable primeval world, alongside a disparate group of strangers, they must work to survive and uncover the mystery of where they are and if there is a way back home.",
+            "popularity": 1309.595,
+            "poster_path": "/nsoRsiUEakEO7VMIoa6Jkw4cPHs.jpg",
+            "vote_average": 7.8,
+            "vote_count": 32
+          }
+        ]
+      },
+      "id": 1
+    }
+  ]
+}

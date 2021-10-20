@@ -1,0 +1,174 @@
+.poster_horizontal {
+  display: none;
+}
+.aditional_info {
+  display: flex;
+}
+.status_info {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.companies_info {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+  margin-bottom: 15px;
+  left: 0;
+}
+
+.companies_info img {
+  height: 25px;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.profile_works {
+  display: none;
+  margin: 0 10px;
+}
+
+.title_person {
+  margin: 5px 10px;
+}
+
+.title_small {
+  display: none;
+  margin: 5px 10px;
+}
+
+.title_small div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+.title_large div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.stars_info_average {
+  height: 25px;
+  width: 25px;
+}
+
+.card-body {
+  margin: 0px 5px;
+}
+
+.stream_info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.stream_info b {
+  margin-right: 10px;
+}
+
+.stream_info img {
+  margin-right: 10px;
+
+  height: 40px;
+  border-radius: 10px;
+}
+.status_info {
+  cursor: pointer;
+}
+
+.button_left {
+  position: absolute;
+  height: 95.1%;
+  background-color: rgba(245, 245, 245, 0.13);
+  z-index: 1;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_left img {
+  width: 100%;
+}
+
+.button_left:hover {
+  cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.397);
+}
+
+.button_right {
+  position: absolute;
+  right: 0;
+  height: 95.1%;
+  background-color: rgba(245, 245, 245, 0.13);
+  z-index: 1;
+  width: 65px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button_right img {
+  width: 100%;
+  transform: scaleX(-1);
+}
+
+.button_right:hover {
+  cursor: pointer;
+  background-color: rgba(245, 245, 245, 0.397);
+}
+
+@media only screen and (min-width: 576px) and (max-width: 991px) {
+  .profile_works {
+    display: block;
+  }
+  .pupular_works {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .title_small {
+    display: block;
+  }
+  .title_large {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .poster_vertical {
+    display: none;
+  }
+  .status_info {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+  }
+  .poster_horizontal {
+    display: block;
+  }
+  .profile_picture {
+    width: 50%;
+  }
+  .profife_responsive {
+    display: flex;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .aditional_info {
+    flex-direction: column-reverse;
+  }
+  .profile_works {
+    display: none;
+  }
+  .profile_picture {
+    width: 100%;
+  }
+}
