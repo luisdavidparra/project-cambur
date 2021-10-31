@@ -1,12 +1,18 @@
 import { Link } from "react-router-dom";
+import { useDataContext } from "../context/DataContext";
 
 const CardPerson = ({ person }) => {
+  const { getSearchByName } = useDataContext();
+
+  const resetSearchByName = () => {
+    getSearchByName("");
+  };
   if (!person.profile_path) {
     return null;
   }
   return (
     <div className="wrap_card">
-      <Link to={`/info/person/${person.id}`} className="link_card">
+      <Link to={`/info/person/${person.id}`} className="link_card" onClick={resetSearchByName}>
         <div className="info_card">
           <h4 className="text-center text-warning">{person.name}</h4>
           <h5 className="mb-0">Known for:</h5>

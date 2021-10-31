@@ -1,3 +1,6 @@
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "../firebase/firebase.config";
+
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router";
 import { Link } from "react-router-dom";
@@ -11,10 +14,48 @@ const InfoMovie = () => {
   const [cast, setCast] = useState();
   const [providers, setProviders] = useState();
   const [providersCheck, setProvidersCheck] = useState();
-  const { user, setUserMoviesWatchList, setUserMoviesWatched, searchByName } = useDataContext();
+  const { user, setUser, searchByName } = useDataContext();
   const [watchedIcon, setWatchedIcon] = useState("/images/no_watched.png");
   const [toWatchIcon, setToWatchIcon] = useState("/images/no_listed.png");
-  
+
+  const editToWatchList = async (newMovie) => {
+    if (user.movies.to_watch.length > 0) {
+      if (user.movies.to_watch.find((movie) => movie.id === newMovie.id)) {
+        const newToWatch = user.movies.to_watch.filter((movie) => movie.id !== newMovie.id);
+        const newUser = { ...user, movies: { ...user.movies, to_watch: [...newToWatch] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      } else {
+        const newUser = { ...user, movies: { ...user.movies, to_watch: [...user.movies.to_watch, { ...newMovie }] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      }
+    } else {
+      const newUser = { ...user, movies: { ...user.movies, to_watch: [{ ...newMovie }] } };
+      setUser(newUser);
+      await setDoc(doc(db, "users", user.id), newUser);
+    }
+  };
+
+  const editWatched = async (newMovie) => {
+    if (user.movies.watched.length > 0) {
+      if (user.movies.watched.find((movie) => movie.id === newMovie.id)) {
+        const newToWatch = user.movies.watched.filter((movie) => movie.id !== newMovie.id);
+        const newUser = { ...user, movies: { ...user.movies, watched: [...newToWatch] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      } else {
+        const newUser = { ...user, movies: { ...user.movies, watched: [...user.movies.watched, { ...newMovie }] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      }
+    } else {
+      const newUser = { ...user, movies: { ...user.movies, watched: [{ ...newMovie }] } };
+      setUser(newUser);
+      await setDoc(doc(db, "users", user.id), newUser);
+    }
+  };
+
   useEffect(() => {
     const GetDetails = async () => {
       const data = await GetMovieById(id);
@@ -42,10 +83,10 @@ const InfoMovie = () => {
       if (!user?.movies.watched.find((w) => w.id === movie.id)) {
         setWatchedIcon("/images/no_watched.png");
       }
-      if (user?.movies.watch_list.find((w) => w.id === movie.id)) {
+      if (user?.movies.to_watch.find((w) => w.id === movie.id)) {
         setToWatchIcon("/images/listed.png");
       }
-      if (!user?.movies.watch_list.find((w) => w.id === movie.id)) {
+      if (!user?.movies.to_watch.find((w) => w.id === movie.id)) {
         setToWatchIcon("/images/no_listed.png");
       }
     }
@@ -138,14 +179,14 @@ const InfoMovie = () => {
                     <img
                       src={toWatchIcon}
                       alt="To watch list"
-                      onClick={() => setUserMoviesWatchList(movie)}
+                      onClick={() => editToWatchList(movie)}
                       title="To Watch list"
                     />
                     {movie.status === "Released" && (
                       <img
                         src={watchedIcon}
                         alt="Watched list"
-                        onClick={() => setUserMoviesWatched(movie)}
+                        onClick={() => editWatched(movie)}
                         title="Watched list"
                       />
                     )}

@@ -3,10 +3,10 @@
   box-sizing: border-box;
 }
 .search_container {
-  position: absolute;
-  right: 0;
+  /* position: absolute; */
+  /* right: 0; */
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 .line {
   border-bottom: 1px solid black;
@@ -24,4 +24,3 @@
 .z_index {
   z-index: 1;
 }
-

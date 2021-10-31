@@ -2,7 +2,8 @@ import { createContext, useContext, useEffect, useState } from "react";
 import { PopularMovies } from "../services/GetMovies";
 import { PopularTvShows } from "../services/GetTvShows";
 import { SearchByName } from "../services/GetByName";
-import { GetUser, SetUserLists } from "../services/GetUser";
+import { collection, getDocs } from "@firebase/firestore";
+import { db } from "../firebase/firebase.config";
 
 const DataContext = createContext({});
 
@@ -20,78 +21,23 @@ export const DataContextProvider = ({ children }) => {
       setSearchByName(res.results);
     }
   };
-  const getUser = async () => {
-    const res = await GetUser();
-    setUser(res);
-  };
 
-  const setUserMoviesWatchList = async (movie) => {
-    const res = user.movies.watch_list.find((w) => w.id === movie.id);
-    if (res) {
-      const data = user.movies.watch_list.filter((w) => w.id !== movie.id);
-      const newMovies = { watch_list: [...data], watched: user.movies.watched };
-      const newUser = { ...user, movies: newMovies };
-      SetUserLists(newUser);
-      setUser(newUser);
-    } else {
-      const newWatchList = [...user.movies.watch_list, movie];
-      const newMovies = { watch_list: [...newWatchList], watched: user.movies.watched };
-      const newUser = { ...user, movies: newMovies };
-      SetUserLists(newUser);
-      setUser(newUser);
+  useEffect(() => {
+    const userStorage = localStorage.getItem("user_project_cambur");
+    if (userStorage) {
+      const getUser = async () => {
+        const existingUser = [];
+        const querySnapshot = await getDocs(collection(db, "users"));
+        querySnapshot.forEach((doc) => {
+          if (doc.id === userStorage) {
+            existingUser.push({ ...doc.data(), id: doc.id });
+          }
+        });
+        setUser(existingUser[0]);
+      };
+      getUser();
     }
-  };
-
-  const setUserMoviesWatched = async (movie) => {
-    const res = user.movies.watched.find((w) => w.id === movie.id);
-    if (res) {
-      const data = user.movies.watched.filter((w) => w.id !== movie.id);
-      const newMovies = { watched: [...data], watch_list: user.movies.watch_list };
-      const newUser = { ...user, movies: newMovies };
-      SetUserLists(newUser);
-      setUser(newUser);
-    } else {
-      const newWatched = [...user.movies.watched, movie];
-      const newMovies = { watched: [...newWatched], watch_list: user.movies.watch_list };
-      const newUser = { ...user, movies: newMovies };
-      SetUserLists(newUser);
-      setUser(newUser);
-    }
-  };
-
-  const setUserTvWatchList = async (tv) => {
-    const res = user.tv.watch_list.find((w) => w.id === tv.id);
-    if (res) {
-      const data = user.tv.watch_list.filter((w) => w.id !== tv.id);
-      const newTv = { watch_list: [...data], watched: user.tv.watched };
-      const newUser = { ...user, tv: newTv };
-      SetUserLists(newUser);
-      setUser(newUser);
-    } else {
-      const newWatchList = [...user.tv.watch_list, tv];
-      const newTv = { watch_list: [...newWatchList], watched: user.tv.watched };
-      const newUser = { ...user, tv: newTv };
-      SetUserLists(newUser);
-      setUser(newUser);
-    }
-  };
-
-  const setUserTvWatched = async (tv) => {
-    const res = user.tv.watched.find((w) => w.id === tv.id);
-    if (res) {
-      const data = user.tv.watched.filter((w) => w.id !== tv.id);
-      const newTv = { watched: [...data], watch_list: user.tv.watch_list };
-      const newUser = { ...user, tv: newTv };
-      SetUserLists(newUser);
-      setUser(newUser);
-    } else {
-      const newWatched = [...user.tv.watched, tv];
-      const newTv = { watched: [...newWatched], watch_list: user.tv.watch_list };
-      const newUser = { ...user, tv: newTv };
-      SetUserLists(newUser);
-      setUser(newUser);
-    }
-  };
+  }, []);
 
   useEffect(() => {
     const getPopularsMovies = async () => {
@@ -105,9 +51,7 @@ export const DataContextProvider = ({ children }) => {
 
     getPopularsMovies();
     getPopularsTv();
-    getUser();
   }, []);
-  
 
   const value = {
     popularMovies,
@@ -115,12 +59,8 @@ export const DataContextProvider = ({ children }) => {
     user,
     getSearchByName,
     searchByName,
-    getUser,
     setUser,
-    setUserMoviesWatchList,
-    setUserMoviesWatched,
-    setUserTvWatchList,
-    setUserTvWatched,
+   
   };
   return <DataContext.Provider value={value}>{children}</DataContext.Provider>;
 };

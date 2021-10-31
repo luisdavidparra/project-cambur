@@ -1,3 +1,6 @@
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "../firebase/firebase.config";
+
 import { useEffect, useState } from "react";
 import { useHistory, useParams } from "react-router";
 import { Link } from "react-router-dom";
@@ -11,9 +14,54 @@ const InfoTv = () => {
   const [cast, setCast] = useState();
   const [providers, setProviders] = useState();
   const [providersCheck, setProvidersCheck] = useState();
-  const { user, setUserTvWatchList, setUserTvWatched, searchByName } = useDataContext();
+  const { user, setUser, searchByName } = useDataContext();
   const [watchedIcon, setWatchedIcon] = useState("/images/no_watched.png");
   const [toWatchIcon, setToWatchIcon] = useState("/images/no_listed.png");
+
+  const editToWatchList = async (newMovie) => {
+    if (user.tv_shows.to_watch.length > 0) {
+      if (user.tv_shows.to_watch.find((movie) => movie.id === newMovie.id)) {
+        const newToWatch = user.tv_shows.to_watch.filter((movie) => movie.id !== newMovie.id);
+        const newUser = { ...user, tv_shows: { ...user.tv_shows, to_watch: [...newToWatch] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      } else {
+        const newUser = {
+          ...user,
+          tv_shows: { ...user.tv_shows, to_watch: [...user.tv_shows.to_watch, { ...newMovie }] },
+        };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      }
+    } else {
+      const newUser = { ...user, tv_shows: { ...user.tv_shows, to_watch: [{ ...newMovie }] } };
+      setUser(newUser);
+      await setDoc(doc(db, "users", user.id), newUser);
+    }
+  };
+
+  const editWatched = async (newMovie) => {
+    if (user.tv_shows.watched.length > 0) {
+      if (user.tv_shows.watched.find((movie) => movie.id === newMovie.id)) {
+        const newToWatch = user.tv_shows.watched.filter((movie) => movie.id !== newMovie.id);
+        const newUser = { ...user, tv_shows: { ...user.tv_shows, watched: [...newToWatch] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      } else {
+        const newUser = {
+          ...user,
+          tv_shows: { ...user.tv_shows, watched: [...user.tv_shows.watched, { ...newMovie }] },
+        };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      }
+    } else {
+      const newUser = { ...user, tv_shows: { ...user.tv_shows, watched: [{ ...newMovie }] } };
+      setUser(newUser);
+      await setDoc(doc(db, "users", user.id), newUser);
+    }
+  };
+
   useEffect(() => {
     const GetDetails = async () => {
       const data = await GetTvShowById(id);
@@ -35,16 +83,16 @@ const InfoTv = () => {
 
   useEffect(() => {
     if (tv && user) {
-      if (user.tv.watched.find((w) => w.id === tv.id)) {
+      if (user.tv_shows.watched.find((w) => w.id === tv.id)) {
         setWatchedIcon("/images/watched.png");
       }
-      if (!user.tv.watched.find((w) => w.id === tv.id)) {
+      if (!user.tv_shows.watched.find((w) => w.id === tv.id)) {
         setWatchedIcon("/images/no_watched.png");
       }
-      if (user.tv.watch_list.find((w) => w.id === tv.id)) {
+      if (user.tv_shows.to_watch.find((w) => w.id === tv.id)) {
         setToWatchIcon("/images/listed.png");
       }
-      if (!user.tv.watch_list.find((w) => w.id === tv.id)) {
+      if (!user.tv_shows.to_watch.find((w) => w.id === tv.id)) {
         setToWatchIcon("/images/no_listed.png");
       }
     }
@@ -139,7 +187,7 @@ const InfoTv = () => {
                     <img
                       src={toWatchIcon}
                       alt="To watch list"
-                      onClick={() => setUserTvWatchList(tv)}
+                      onClick={() => editToWatchList(tv)}
                       style={{ cursor: "pointer" }}
                       title="To watch list"
                     />
@@ -147,7 +195,7 @@ const InfoTv = () => {
                       <img
                         src={watchedIcon}
                         alt="Watched list"
-                        onClick={() => setUserTvWatched(tv)}
+                        onClick={() => editWatched(tv)}
                         style={{ cursor: "pointer" }}
                         title="Watched list"
                       />

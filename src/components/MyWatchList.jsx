@@ -14,25 +14,25 @@ const MyWatchList = () => {
     <>
       {user && (
         <>
-          {user.movies.watch_list.length > 0 && (
+          {user.movies.to_watch.length > 0 && (
             <>
               <h3 className="m-2">
                 <b>Movies to watch</b>
               </h3>
               <div className="row__card_list">
-                {user.movies.watch_list.map((movie, id) => (
+                {user.movies.to_watch.map((movie, id) => (
                   <CardMovie movie={movie} key={id} />
                 ))}
               </div>
             </>
           )}
-          {user.tv.watch_list.length > 0 && (
+          {user.tv_shows.to_watch.length > 0 && (
             <>
               <h3 className="m-2">
                 <b>Tv Shows to watch</b>
               </h3>
               <div className="row__card_list">
-                {user.tv.watch_list && user.tv.watch_list.map((tv, id) => <CardTv tv={tv} key={id} />)}
+                {user.tv_shows.to_watch && user.tv_shows.to_watch.map((tv, id) => <CardTv tv={tv} key={id} />)}
               </div>
             </>
           )}

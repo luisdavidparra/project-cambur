@@ -8,7 +8,7 @@ const Profile = () => {
   const [moviesWatched, setMoviesWatched] = useState();
   const [moviesToWatch, setMoviesToWatch] = useState();
   const [favMoviesGenres, setFavMoviesGenres] = useState();
-  const [averageWatched, setAverageWatched] = useState();
+  // const [averageWatched, setAverageWatched] = useState();
   const history = useHistory();
   if (searchByName) {
     history.push("/search");
@@ -24,7 +24,7 @@ const Profile = () => {
         },
         { time: 0, amount: 0 }
       );
-      const moviesToWatch = user.movies.watch_list.reduce(
+      const moviesToWatch = user.movies.to_watch.reduce(
         (prev, curr) => {
           const timeValue = prev.time + curr.runtime;
           const amountValue = prev.amount + 1;
@@ -34,7 +34,7 @@ const Profile = () => {
         { time: 0, amount: 0 }
       );
 
-      const allGenres = [...user.movies.watched, ...user.movies.watch_list].map((genres) => genres.genres[0].name);
+      const allGenres = [...user.movies.watched, ...user.movies.to_watch].map((genres) => genres.genres[0].name);
       const favouriteGenres = allGenres.reduce((prev, curr) => {
         if (prev.length === 0) return [{ name: curr, amount: 1 }];
         const filtered = prev.filter((p) => p.name === curr);
@@ -52,8 +52,8 @@ const Profile = () => {
       setFavMoviesGenres(favouriteGenresOrdered);
       setMoviesWatched(moviesWatched);
       setMoviesToWatch(moviesToWatch);
-      const average = (moviesToWatch.time * 100) / moviesWatched.time;
-      setAverageWatched(average);
+      // const average = (moviesToWatch.time * 100) / moviesWatched.time;
+      // setAverageWatched(average);
     }
   }, [user]);
 
@@ -65,14 +65,15 @@ const Profile = () => {
             <div className="col-12 col-sm-5 bg-light">
               <div className="title_person">
                 <h4 className="mb-0">{user.name}</h4>
-                <span className="d-block">Account created: {user.date_register}</span>
+                <span className="d-block">Account created: {user.date_register.split(" ").slice(1, 4).join(" ")}</span>
               </div>
               <div className="profife_responsive">
                 <img
-                  src={`https://i.pinimg.com/originals/90/58/27/905827ac17d1e4b79772c4e10da65c36.jpg`}
+                  src={user.profile_image}
                   className="img-fluid rounded-start"
                   alt={user.name}
                   title={user.name}
+                  style={{ width: "100%" }}
                 />
               </div>
             </div>
@@ -95,8 +96,8 @@ const Profile = () => {
                     </div>
                   )}
                   <h5>Tv Shows</h5>
-                  <span className="d-block">Amount watched: {user.tv.watched.length}</span>
-                  <span className="d-block">Amount to watch: {user.tv.watch_list.length}</span>
+                  <span className="d-block">Amount watched: {user.tv_shows.watched.length}</span>
+                  <span className="d-block">Amount to watch: {user.tv_shows.to_watch.length}</span>
 
                   <div className="progress" style={{ position: "relative", zIndex: 1, width: "75%" }}>
                     <div

@@ -26,13 +26,13 @@ const MyWatched = () => {
               </div>
             </>
           )}
-          {user.tv.watched.length > 0 && (
+          {user.tv_shows.watched.length > 0 && (
             <>
               <h3 className="m-2">
                 <b>Tv Shows watched</b>
               </h3>
               <div className="row__card_list">
-                {user.tv.watched.map((tv, id) => (
+                {user.tv_shows.watched.map((tv, id) => (
                   <CardTv tv={tv} key={id} />
                 ))}
               </div>

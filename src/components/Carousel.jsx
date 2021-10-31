@@ -4,7 +4,7 @@ import CardTv from "./CardTv";
 
 const Carousel = ({ popularMovies, popularTv, searchMovies, searchTv }) => {
   const [carousel, setCarousel] = useState();
-  const [showButtons, setShowButtons] = useState(true);
+  // const [showButtons, setShowButtons] = useState(true);
 
   useEffect(() => {
     const carouselElement = popularMovies
@@ -63,7 +63,7 @@ const Carousel = ({ popularMovies, popularTv, searchMovies, searchTv }) => {
       <div className="position-relative">
         <div
           onClick={() => onScrollLeft()}
-          className={`button_left ${!showButtons ? "d-none" : null}`}
+          className={`button_left `}
           id="button_left"
         >
           <div className="position-relative">
@@ -72,7 +72,7 @@ const Carousel = ({ popularMovies, popularTv, searchMovies, searchTv }) => {
         </div>
         <div
           onClick={() => onScrollRight()}
-          className={`button_right ${!showButtons ? "d-none" : null}`}
+          className={`button_right`}
           id="button_right"
         >
           <div className="position-relative">

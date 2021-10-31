@@ -1,23 +1,71 @@
+import { doc, setDoc } from "firebase/firestore";
+import { db } from "../firebase/firebase.config";
+import { GetTvShowById } from "../services/GetTvShows";
+
 import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { useDataContext } from "../context/DataContext";
 
 const CardTv = ({ tv }) => {
-  const { user, setUserTvWatchList, setUserTvWatched } = useDataContext();
+  const { user, setUser, getSearchByName } = useDataContext();
   const [watchedIcon, setWatchedIcon] = useState("images/no_watched.png");
   const [toWatchIcon, setToWatchIcon] = useState("images/no_listed.png");
 
+  const resetSearchByName = () => {
+    getSearchByName("");
+  };
+
+  const editToWatchList = async (id) => {
+    const data = await GetTvShowById(id);
+    if (user.tv_shows.to_watch.length > 0) {
+      if (user.tv_shows.to_watch.find((movie) => movie.id === data.id)) {
+        const newToWatch = user.tv_shows.to_watch.filter((movie) => movie.id !== data.id);
+        const newUser = { ...user, tv_shows: { ...user.tv_shows, to_watch: [...newToWatch] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      } else {
+        const newUser = { ...user, tv_shows: { ...user.tv_shows, to_watch: [...user.tv_shows.to_watch, { ...data }] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      }
+    } else {
+      const newUser = { ...user, tv_shows: { ...user.tv_shows, to_watch: [{ ...data }] } };
+      setUser(newUser);
+      await setDoc(doc(db, "users", user.id), newUser);
+    }
+  };
+
+  const editWatched = async (id) => {
+    const data = await GetTvShowById(id);
+    if (user.tv_shows.watched.length > 0) {
+      if (user.tv_shows.watched.find((movie) => movie.id === data.id)) {
+        const newToWatch = user.tv_shows.watched.filter((movie) => movie.id !== data.id);
+        const newUser = { ...user, tv_shows: { ...user.tv_shows, watched: [...newToWatch] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      } else {
+        const newUser = { ...user, tv_shows: { ...user.tv_shows, watched: [...user.tv_shows.watched, { ...data }] } };
+        setUser(newUser);
+        await setDoc(doc(db, "users", user.id), newUser);
+      }
+    } else {
+      const newUser = { ...user, tv_shows: { ...user.tv_shows, watched: [{ ...data }] } };
+      setUser(newUser);
+      await setDoc(doc(db, "users", user.id), newUser);
+    }
+  };
+
   useEffect(() => {
-    if (user?.tv.watched.find((w) => w.id === tv.id)) {
+    if (user?.tv_shows.watched.find((w) => w.id === tv.id)) {
       setWatchedIcon("images/watched.png");
     }
-    if (!user?.tv.watched.find((w) => w.id === tv.id)) {
+    if (!user?.tv_shows.watched.find((w) => w.id === tv.id)) {
       setWatchedIcon("images/no_watched.png");
     }
-    if (user?.tv.watch_list.find((w) => w.id === tv.id)) {
+    if (user?.tv_shows.to_watch.find((w) => w.id === tv.id)) {
       setToWatchIcon("images/listed.png");
     }
-    if (!user?.tv.watch_list.find((w) => w.id === tv.id)) {
+    if (!user?.tv_shows.to_watch.find((w) => w.id === tv.id)) {
       setToWatchIcon("images/no_listed.png");
     }
   }, [tv.id, user, tv]);
@@ -28,16 +76,16 @@ const CardTv = ({ tv }) => {
   return (
     <div className="wrap_card">
       <div className="info_card_status">
-        <div className="img_container" onClick={() => setUserTvWatchList(tv)}>
+        <div className="img_container" onClick={() => editToWatchList(tv.id)}>
           <img src={toWatchIcon} alt="To watch list" title="To watch list" />
         </div>
         {tv.vote_average !== 0 && (
-          <div className="img_container" onClick={() => setUserTvWatched(tv)}>
+          <div className="img_container" onClick={() => editWatched(tv.id)}>
             <img src={watchedIcon} alt="Watched list" title="Watched list" />
           </div>
         )}
       </div>
-      <Link to={`/info/tv/${tv.id}`} className="link_card">
+      <Link to={`/info/tv/${tv.id}`} className="link_card" onClick={resetSearchByName}>
         <div className="info_card">
           <h4 className="text-center">{tv.name}</h4>
           <p>{tv.overview.slice(0, 150)}...</p>

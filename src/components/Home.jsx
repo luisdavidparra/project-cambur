@@ -1,12 +1,25 @@
 import { useHistory } from "react-router";
+import { useEffect } from "react";
 import { useDataContext } from "../context/DataContext";
+import { collection, getDocs } from "firebase/firestore";
+import { db } from "../firebase/firebase.config";
 import Carousel from "./Carousel";
 
 const Home = () => {
   const { popularMovies, popularTv, searchByName } = useDataContext();
-  
 
   const history = useHistory();
+
+  useEffect(() => {
+    const getData = async () => {
+      const querySnapshot = await getDocs(collection(db, "users"));
+      const data = [];
+      querySnapshot.forEach((doc) => {
+        data.push({ ...doc.data(), id: doc.id });
+      });
+    };
+    getData();
+  });
 
   if (searchByName) {
     history.push("/search");

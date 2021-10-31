@@ -9,40 +9,41 @@ import MyWatchList from "./components/MyWatchList";
 import MyWatched from "./components/MyWatched";
 import Profile from "./components/Profile";
 import Search from "./components/Search";
-import SignUp from "./components/SignUp";
+import Login from "./components/Login";
+import PrivateRoute from "./components/PrivateRoute";
 function App() {
   return (
     <div className="App">
       <Router>
         <Navbar />
         <Switch>
-          <Route path="/signup">
-            <SignUp />
+          <Route path="/login">
+            <Login />
           </Route>
-          <Route path="/search">
+          <PrivateRoute path="/search">
             <Search />
-          </Route>
-          <Route path="/info/movie/:id">
+          </PrivateRoute>
+          <PrivateRoute path="/info/movie/:id">
             <InfoMovie />
-          </Route>
-          <Route path="/info/tv/:id">
+          </PrivateRoute>
+          <PrivateRoute path="/info/tv/:id">
             <InfoTv />
-          </Route>
-          <Route path="/info/person/:id">
+          </PrivateRoute>
+          <PrivateRoute path="/info/person/:id">
             <InfoPerson />
-          </Route>
-          <Route path="/my-to-watch-list">
+          </PrivateRoute>
+          <PrivateRoute path="/my-to-watch-list">
             <MyWatchList />
-          </Route>
-          <Route path="/my-watched">
+          </PrivateRoute>
+          <PrivateRoute path="/my-watched">
             <MyWatched />
-          </Route>
-          <Route path="/profile/:id">
+          </PrivateRoute>
+          <PrivateRoute path="/profile/:id">
             <Profile />
-          </Route>
-          <Route path="/">
+          </PrivateRoute>
+          <PrivateRoute path="/">
             <Home />
-          </Route>
+          </PrivateRoute>
         </Switch>
       </Router>
     </div>
