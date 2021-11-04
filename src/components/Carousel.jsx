@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import CardMovie from "./CardMovie";
 import CardTv from "./CardTv";
 

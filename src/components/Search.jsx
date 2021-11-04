@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import { Redirect, useHistory } from "react-router";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { useDataContext } from "../context/DataContext";
 import CardPerson from "./CardPerson";
 import Carousel from "./Carousel";

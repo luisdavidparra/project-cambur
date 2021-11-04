@@ -1,6 +1,6 @@
 import { useLocation } from "react-router";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react/cjs/react.development";
+import { useEffect, useState } from "react";
 import { useDataContext } from "../context/DataContext";
 import { useForm } from "react-hook-form";
 import "./Navbar.css";
