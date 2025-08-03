@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# 🎬 Project Cambur Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Cambur** is a web application for exploring movies and TV shows. It allows both **guests** and **registered users** to search titles, view detailed information such as cast, release year, rating, and streaming availability.  
+Registered users can also manage personal lists like **"Watched"** and **"To Watch"** within their profiles.
 
-## Available Scripts
+🔗 **Live App:** [https://react-project-cambur.web.app](https://react-project-cambur.web.app/)
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🛠️ Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **Frontend:** ReactJS, JavaScript, HTML  
+- **Styling:** Bootstrap  
+- **Authentication & Hosting:** Firebase  
+- **Data Source API:** [The Movie Database (TMDb)](https://www.themoviedb.org/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+---
 
-### `npm test`
+## 📱 Responsive Design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Project Cambur is fully responsive and adapts to all screen sizes including desktop, tablet, and mobile.  
+This was achieved using Bootstrap's grid system and utility classes to ensure a smooth and consistent user experience across devices.
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Run Locally (Development Mode)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Follow these steps to run the app locally:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 1. Clone the repository
+```bash 
+git clone https://github.com/luisdavidparra/project-cambur.git
+cd project-cambur
+```
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### 2. Clone the repository
+```bash
+npm install
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 3. Set up environment variables
+```bash
+Replace .env variables
+```
+📝 **Note:**
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+You can get these values by creating a project in Firebase and registering a web app.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+The TMDb API key can be obtained by creating an account at themoviedb.org.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 4. Start the development server
+```bash
+npm start
+```

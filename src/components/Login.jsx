@@ -8,12 +8,32 @@ const Login = () => {
   const { user, setUser } = useDataContext();
   const auth = getAuth();
 
+  const guestLogin = async () => {
+  const guestId = "guest_" + Date.now();
+    const newUser = {
+    name: "Guest",
+    email: "",
+    profile_image: "https://ui-avatars.com/api/?name=Invitado&background=random",
+    zone: "ES",
+    date_register: new Date().toISOString(),
+    movies: { to_watch: [], watched: [] },
+    tv_shows: { to_watch: [], watched: [] },
+    isGuest: true,
+  };
+
+   try {
+    await setDoc(doc(db, "users", guestId), newUser);
+    localStorage.setItem("user_project_cambur", guestId);
+    setUser({ ...newUser, id: guestId });
+  } catch (e) {
+    console.error("Error creando usuario invitado:", e);
+  }
+};
+
   const googleAuth = async () => {
     const provider = new GoogleAuthProvider();
     try {
       const res = await signInWithPopup(auth, provider);
-      // console.log(res.user.metadata.creationTime === res.user.metadata.lastSignInTime);
-      // console.log(res);
       const querySnapshot = await getDocs(collection(db, "users"));
       const existingUser = [];
       querySnapshot.forEach((doc) => {
@@ -64,9 +84,12 @@ const Login = () => {
         </div>
       </div>
       <hr />
-      <button className="btn btn-secondary d-flex justify-content-center align-items-center mb-3" onClick={googleAuth}>
+      <button className="btn btn-primary d-flex justify-content-center align-items-center mb-3" onClick={googleAuth}>
         <img src="./images/google.png" alt="google" style={{ height: "30px" }} className="px-2" />{" "}
         <b className="px-2">Login with Google</b>
+      </button>
+       <button className="btn btn-secondary col-8 mx-auto d-flex justify-content-center align-items-center mb-3" onClick={guestLogin}>
+        <b className="px-2">Enter as a guest</b>
       </button>
     </div>
   );

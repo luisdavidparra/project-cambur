@@ -11,6 +11,7 @@ import Profile from "./components/Profile";
 import Search from "./components/Search";
 import Login from "./components/Login";
 import PrivateRoute from "./components/PrivateRoute";
+
 function App() {
   return (
     <div className="App">
