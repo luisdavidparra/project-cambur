@@ -3,6 +3,8 @@
 **Project Cambur** is a web application for exploring movies and TV shows. It allows both **guests** and **registered users** to search titles, view detailed information such as cast, release year, rating, and streaming availability.  
 Registered users can also manage personal lists like **"Watched"** and **"To Watch"** within their profiles.
 
+<img width="1920" height="1080" alt="Captura de pantalla (40)" src="https://github.com/user-attachments/assets/3fdeb745-13b3-4fed-b190-d18f3ac7353b" />
+
 🔗 **Live App:** [https://react-project-cambur.web.app](https://react-project-cambur.web.app/)
 
 ---
