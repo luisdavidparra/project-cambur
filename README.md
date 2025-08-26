@@ -36,7 +36,7 @@ cd project-cambur
 ```
 
 
-### 2. Clone the repository
+### 2. Install dependencies
 ```bash
 npm install
 ```
